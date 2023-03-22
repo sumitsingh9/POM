@@ -1,0 +1,17 @@
+{
+  "name": "pom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "test_headed": "node_modules/.bin/cypress run --headed -browser=chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.8.1"
+  }
+}
